@@ -108,10 +108,10 @@
         double result = 0;
         switch (args[1])
         {
-            case "-cm":
+            case "-mm":
                 result = Converter.ConvertToMilimeters(inches);
                 break;
-            case "-mm":
+            case "-cm":
                 result = Converter.ConvertToCentimeters(inches);
                 break;
             case "-m":
